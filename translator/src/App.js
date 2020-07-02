@@ -6,6 +6,7 @@ import Translate from './components/Translate'
 
 const App = () => {
   const [language, setLanguage] = useState('ru');
+  const [text, setText] = useState('');
 
   return (
     <div className="App">
